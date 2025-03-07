@@ -31,6 +31,51 @@
             <artifactId>spring-web</artifactId>
             <version>5.3.20</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.3.20</version>
+        </dependency>
+        <dependency>
+            <groupId>org.owasp.esapi</groupId>
+            <artifactId>esapi</artifactId>
+            <version>2.3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.directory.server</groupId>
+            <artifactId>apacheds-core</artifactId>
+            <version>2.0.0-M24</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.directory.server</groupId>
+            <artifactId>apacheds-core-api</artifactId>
+            <version>2.0.0-M24</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.directory.server</groupId>
+            <artifactId>apacheds-ldap-protocol</artifactId>
+            <version>2.0.0-M24</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.6.15.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>5.6.15.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.el</groupId>
+            <artifactId>javax.el-api</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.70</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -40,7 +85,6 @@
                 <artifactId>spotless-maven-plugin</artifactId>
                 <version>2.27.2</version>
                 <configuration>
-                    <!-- Updated reference from origin/master to origin/main -->
                     <ratchetFrom>origin/main</ratchetFrom>
                     <formats>
                         <format>
